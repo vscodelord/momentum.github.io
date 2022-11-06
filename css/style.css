@@ -1,0 +1,78 @@
+.hidden {
+    display: none;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    object-fit: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2C0E52;
+}
+
+
+#weather-container {
+    position: absolute;
+    text-align: center;
+    left: 45%;
+    top: 0%;
+}
+
+#contain {
+    background-color: white;
+    text-align: center;
+    opacity: 0.5;
+    padding: 5vh;
+    border-radius: 10px;
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#clock {}
+
+
+li {
+    list-style: none;
+}
+
+button {
+    display: inline-block;
+    padding: 1em 2em;
+    border-radius: 0;
+    color: #b2876f;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 0.678rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-position: 1% 50%;
+    background-size: 400% 300%;
+    border: 1px solid #b2876f;
+
+    &:hover {
+        color: white;
+        color: #fff;
+        background-position: 99% 50%;
+        transform: scale(1.1)
+    }
+}
+
+button:hover {
+    transform: scale(1.4);
+}
+
+ul {
+    height: 40%;
+    overflow: auto;
+}
